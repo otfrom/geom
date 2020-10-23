@@ -13,6 +13,7 @@
          - [[#geom-meshops][geom-meshops]]
          - [[#geom-physics][geom-physics]]
          - [[#geom-svg][geom-svg]]
+         - [[#geom-viz][geom-viz]]
          - [[#geom-voxel][geom-voxel]]
          - [[#geom-webgl][geom-webgl]]
      - [[#status][Status]]
@@ -129,6 +130,8 @@ based on functionality. This reduces potential code bloat for CLJS
 applications, but should also make it less daunting for newcomers to
 navigate this quite large project.
 
+[[../assets/overview.png]]
+
 *** geom-core
 
 [[../geom-core/src/index.org][module repo]] | [[http://crossclj.info/doc/thi.ng/geom-core/latest/index.html][CrossCLJ info]]
@@ -176,6 +179,14 @@ A module to help with building SVG based visualizations of geom
 entities using hiccup compatible syntax. Includes a customizable 3D
 mesh renderer w/ software shader support.
 
+*** geom-viz
+
+[[../geom-viz/src/index.org][module repo]] | [[http://crossclj.info/doc/thi.ng/geom-viz/latest/index.html][CrossCLJ info]]
+
+Declarative, highly customizable 2D data visualization module with ~10
+different layout methods, 3 axis types, cartesian and polar domain
+support. Currently SVG only, but planned to be format-independent.
+
 *** geom-voxel
 
 [[../geom-voxel/src/index.org][module repo]] | [[http://crossclj.info/doc/thi.ng/geom-voxel/latest/index.html][CrossCLJ info]]
@@ -218,12 +229,14 @@ A preliminary list of other projects using this library:
 - [[http://github.com/thi-ng/luxor][Luxor]]
 - [[http://github.com/thi-ng/morphogen][Morphogen]]
 - [[http://thi.ng/][thi.ng website]]
+- [[http://github.com/thi-ng/ws-ldn-1/][Clojure/Clojurescript workshop (WS-LDN-1)]]
 
 Several small examples are still included in this repo (but will be
 migrated to the demo repo soon):
 
-- [[../geom-types/src/ptf.org][PTF examples]]
+- [[../geom-viz/src/core.org][Visualization examples]]
 - [[../geom-svg/src/examples.org][SVG examples]]
+- [[../geom-types/src/ptf.org][PTF examples]]
 - [[https://github.com/thi-ng/geom/blob/master/geom-voxel/src/examples.org][Voxel examples]]
 - [[../geom-webgl/src/demo.org][WebGL demos]]
 
@@ -332,6 +345,7 @@ See [[../CHANGELOG.org][CHANGELOG.org]] for further details.
 
 | *Version* | *Released* | *Lein coordinates*        | *Tagged Github URL* |
 |-----------+------------+---------------------------+---------------------|
+|   0.0.908 | 2015-11-08 | =[thi.ng/geom "0.0.908"]= | [[https://github.com/thi-ng/geom/tree/r908][r908]]                |
 |   0.0.881 | 2015-06-21 | =[thi.ng/geom "0.0.881"]= | [[https://github.com/thi-ng/geom/tree/r881][r881]]                |
 |   0.0.859 | 2015-06-15 | =[thi.ng/geom "0.0.859"]= | [[https://github.com/thi-ng/geom/tree/r856][r859]]                |
 |   0.0.856 | 2015-06-14 | =[thi.ng/geom "0.0.856"]= | [[https://github.com/thi-ng/geom/tree/r856][r856]]                |

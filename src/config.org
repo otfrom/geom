@@ -36,19 +36,13 @@ target/test-classes
 **** [[https://github.com/clojure/clojure][Clojure]]
 #+NAME: dep-clj
 #+BEGIN_SRC clojure
-[org.clojure/clojure "1.7.0-RC2"]
+[org.clojure/clojure "1.7.0"]
 #+END_SRC
 
 **** [[https://github.com/clojure/clojurescript][ClojureScript]]
 #+NAME: dep-cljs
 #+BEGIN_SRC clojure
-[org.clojure/clojurescript "0.0-3308"]
-#+END_SRC
-
-**** [[https://github.com/thi-ng/common/][thi.ng/common]]
-#+NAME: dep-common
-#+BEGIN_SRC clojure
-[thi.ng/common "0.3.2"]
+[org.clojure/clojurescript "1.7.170"]
 #+END_SRC
 
 **** [[https://github.com/thi-ng/math][thi.ng/math]]
@@ -60,19 +54,19 @@ target/test-classes
 **** [[https://github.com/thi-ng/dstruct][thi.ng/dstruct]]
 #+NAME: dep-dstruct
 #+BEGIN_SRC clojure
-[thi.ng/dstruct "0.1.0"]
+[thi.ng/dstruct "0.1.2"]
 #+END_SRC
 
 **** [[https://github.com/thi-ng/strf][thi.ng/strf]]
 #+NAME: dep-strf
 #+BEGIN_SRC clojure
-[thi.ng/strf "0.1.0"]
+[thi.ng/strf "0.2.1"]
 #+END_SRC
 
 **** [[https://github.com/thi-ng/color/][thi.ng/color]]
 #+NAME: dep-color
 #+BEGIN_SRC clojure
-[thi.ng/color "0.3.1"]
+[thi.ng/color "1.0.0"]
 #+END_SRC
 
 **** [[https://github.com/thi-ng/typedarrays/][thi.ng/typedarrays]]
@@ -80,17 +74,24 @@ target/test-classes
 #+BEGIN_SRC clojure
 [thi.ng/typedarrays "0.1.2"]
 #+END_SRC
+
 **** [[https://github.com/thi-ng/ndarray/][thi.ng/ndarray]]
 #+NAME: dep-ndarray
 #+BEGIN_SRC clojure
 [thi.ng/ndarray "0.3.0"]
 #+END_SRC
 
+**** [[https://github.com/thi-ng/xerror/][thi.ng/xerror]]
+#+NAME: dep-xerror
+#+BEGIN_SRC clojure
+[thi.ng/xerror "0.1.0"]
+#+END_SRC
+
 *** Development
 **** [[https://github.com/emezeske/lein-cljsbuild][Cljsbuild]]
 #+NAME: dep-cljsbuild
 #+BEGIN_SRC clojure
-[lein-cljsbuild "1.0.6"]
+[lein-cljsbuild "1.1.1"]
 #+END_SRC
 
 **** [[https://github.com/hugoduncan/criterium][Criterium]]
